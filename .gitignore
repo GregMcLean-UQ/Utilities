@@ -1,0 +1,10 @@
+/CVS/*
+Properties/CVS/Entries.Old
+obj/
+bin/
+Properties/CVS/Entries.Extra
+Properties/CVS/Entries.Extra.Old
+Properties/CVS/Repository
+Properties/CVS/Root
+Properties/CVS/Entries
+.vs/
