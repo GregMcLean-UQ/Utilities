@@ -293,18 +293,7 @@ namespace Utilities
 
                 setMetVar("YEAR", year, stDate + i);
                 setMetVar("DAY", doy, stDate + i);
-<<<<<<< HEAD
-                //setMetVar("CODE", 88, stDate + i);
 
-                //if (!headers.Contains("VP"))
-                //    {
-                //    setMetVar("VP", 0, stDate + i);
-                //    }
-                //if (!headers.Contains("PAN"))
-                //    {
-                //    setMetVar("PAN", 0, stDate + i);
-                //    }
-=======
           //      setMetVar("CODE", 88, stDate + i);
 
                 if (headers.Contains("VP"))
@@ -315,7 +304,7 @@ namespace Utilities
                     {
                     setMetVar("PAN", 0, stDate + i);
                     }
->>>>>>> develop
+
                 }
             if (adjustEndDate || (_endDate.JDN - stDate.JDN) < data[0].Count )
                 {
